@@ -3,6 +3,12 @@
     <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
     <title>Kiobo. Mobile App Interaction. Init</title>
     <desc>Created with Sketch.</desc>
+    <style>
+        @font-face {
+        font-family: "Sample font";
+        src: url("https://github.com/agitator/roboto-webfont/blob/master/Roboto-Regular-webfont.ttf");
+        }
+    </style>
     <defs>
         <rect id="path-1" x="0" y="0" width="194" height="34" rx="10"></rect>
         <filter x="-3.6%" y="-14.7%" width="107.2%" height="141.2%" filterUnits="objectBoundingBox" id="filter-2">
