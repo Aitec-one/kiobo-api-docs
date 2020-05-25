@@ -4,10 +4,7 @@
     <title>User Flow Diagram</title>
     <desc>Created with Sketch.</desc>
     <style>
-        @font-face {
-        font-family: "Sample font";
-        src: url("https://github.com/agitator/roboto-webfont/blob/master/Roboto-Regular-webfont.ttf?raw=true");
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&amp;display=swap');
     </style>
     <g id="User-Flow-Diagram" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect fill="#FFFFFF" x="0" y="0" width="1024" height="1594"></rect>
