@@ -1,11 +1,11 @@
-# User Flow Diagram
+# User Flow
 
 App has 4 main tabs:
 
-1. Main Tab / Special Offers
-2. Catalog
-3. Place finder
-4. Profile
+- **Main Tab / Special Offers**
+- **Catalog**
+- **Place finder**
+- **Profile**
 
 as well as a Basket (on the right side of Navigation Bar) containing products selected by the user.
 
@@ -23,10 +23,27 @@ Depending on the client’s settings, there may be payment to the courier or pay
 ![User Flow!](User%20Flow%20Diagram.pdf "User Flow Diagram")
 
 
-# Sequence Diagram. Initial Load
+# Initial Load
+
+Upon authorization, the application receives an access token, which it stores in a keychain for further calls to the API.
+When accessing the API, the access token is indicated in the request header as "Bearer: accessToken".
+
+After logging in, the application loads all the necessary information: special offers, locations, product catalog, 
+information about the user and his orders, etc.
+
+The application can save the downloaded information, 
+as well as download only the changed information using the versioning mechanism / etag.
+
 
 ![User Flow!](Kiobo.%20Mobile%20App%20Interaction.%20Init.pdf "Sequence diagram")
 
-# Sequence Diagram. Order
+# Order
+
+After the initial download, the application checks for open orders and opens them; otherwise, a new order is created.
+
+Each order change: adding a product to the cart, deleting a product, changing it — are sent to the server.
+
+
+During checkout (in the cart screen), the user chooses the type of delivery: delivery or pickup.
 
 ![User Flow!](Kiobo.%20Mobile%20App%20Interaction.%20Order.pdf "Sequence diagram")
