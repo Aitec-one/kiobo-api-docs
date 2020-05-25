@@ -8,12 +8,12 @@
 
 ### Mobile App Structure
 
-[Details](https://api.kiobo.co/mobile-app-structure.html)
+[Details](https://developers.kiobo.co/mobile-app-structure.html)
 
 ### Mobile App Examples
 
-* [iOS Example](http://developers.kiobo.co/mobile-app-example-ios.html)
-* [Android Example](http://developers.kiobo.co/mobile-app-example-android.html)
+* [iOS Example](https://developers.kiobo.co/mobile-app-example-ios.html)
+* [Android Example](https://developers.kiobo.co/mobile-app-example-android.html)
 
 ### PerkID
 
