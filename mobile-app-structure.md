@@ -20,7 +20,8 @@ Next, the user indicates the delivery address (its default delivery address), or
 
 Depending on the client’s settings, there may be payment to the courier or payment on the spot.
 
-![User Flow!](User%20Flow%20Diagram.pdf "User Flow Diagram")
+<embed src="images/User%20Flow%20Diagram.pdf" width="1024px" height="1594px" />
+
 
 
 # Initial Load
