@@ -6,7 +6,7 @@
     <style>
         @font-face {
         font-family: "Sample font";
-        src: url("https://github.com/agitator/roboto-webfont/blob/master/Roboto-Regular-webfont.ttf");
+        src: url("https://github.com/agitator/roboto-webfont/blob/master/Roboto-Regular-webfont.ttf?raw=true");
         }
     </style>
     <defs>
