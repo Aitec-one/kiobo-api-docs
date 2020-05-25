@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1594px" viewBox="0 0 1024 1594" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>User Flow Diagram</title>
+    <desc>Created with Sketch.</desc>
+    <g id="User-Flow-Diagram" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1024" height="1594"></rect>
+        <g id="Authentication" transform="translate(296.000000, 40.000000)">
+            <g id="Screen" transform="translate(86.000000, 0.000000)">
+                <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="193" height="49" rx="10"></rect>
+                <text id="Provide-phone-number" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#000000">
+                    <tspan x="25.9506836" y="30">Provide phone number</tspan>
+                </text>
+            </g>
+            <path id="Down-arrow" d="M182.636394,48.9943924 L183.63631,49.0073783 L183.629817,49.5073362 L183.48,61.006 L187.480142,61.0583101 L182.863648,69.9991146 L178.480901,60.9414369 L182.48,60.993 L182.629901,49.4943502 L182.636394,48.9943924 Z" fill="#A21964" fill-rule="nonzero"></path>
+            <g id="Condition" transform="translate(123.000000, 69.000000)">
+                <text id="Registered" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="26.1210938" y="66">Registered</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#9D9D9D" transform="translate(60.000000, 60.041631) rotate(45.000000) translate(-60.000000, -60.041631) " x="18.5" y="18.5416306" width="83" height="83"></rect>
+            </g>
+            <g id="Yes-condition" transform="translate(0.000000, 107.000000)">
+                <path id="Left-down-arrow" d="M54.5142792,21.3622589 L123.604328,21.5416322 L124.104327,21.5429304 L124.101731,22.542927 L123.601732,22.5416289 L54.511683,22.3622555 C52.02641,22.3558032 50.0064675,24.3652844 50.0000152,26.8505574 L50.0000038,26.8563989 L50,26.8622404 L49.999,65.803 L54,65.8036165 L49.5,74.8036165 L45,65.8036165 L48.999,65.803 L49,26.8622404 C49.0000031,26.8551008 49.0000031,26.8551008 49.0000185,26.8479612 C49.0079047,23.8104053 51.4767233,21.3543727 54.5142792,21.3622589 Z" fill="#A21964" fill-rule="nonzero"></path>
+                <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="63" y="15">Yes</tspan>
+                </text>
+                <g id="Screen" transform="translate(0.000000, 76.000000)">
+                    <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="99" height="39" rx="10"></rect>
+                    <text id="OTP" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="36.3712269" y="25">OTP</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="No-condition" transform="translate(242.000000, 107.000000)">
+                <path id="Righ-down-arrow" d="M71.0950966,21.3619815 C74.0585662,21.3544512 76.480574,23.6920844 76.6041253,26.6267927 L76.6090546,26.8479881 L76.609,39.499 L80.6090723,39.5 L76.1090723,48.5 L71.6090723,39.5 L75.609,39.499 L75.6090578,26.8505291 C75.602923,24.4362636 73.6966863,22.4708853 71.3094851,22.366338 L71.0976376,22.3619783 L0.39824014,22.5416289 L-0.101758246,22.5428995 L-0.104299286,21.5429027 L0.395699099,21.5416322 L71.0950966,21.3619815 Z" fill="#A21964" fill-rule="nonzero"></path>
+                <text id="No" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="35" y="15">No</tspan>
+                </text>
+                <g id="Screen" transform="translate(25.000000, 113.000000)">
+                    <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="99" height="39" rx="10"></rect>
+                    <text id="OTP" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="36.3712269" y="25">OTP</tspan>
+                    </text>
+                </g>
+                <path id="Down-arrow" d="M75.1623037,87.9924529 L76.1622194,88.0054388 L76.1557264,88.5053966 L75.954,104.004 L79.9541074,104.056033 L75.3376136,112.996838 L70.9548663,103.93916 L74.954,103.991 L75.1558108,88.4924107 L75.1623037,87.9924529 Z" fill="#A21964" fill-rule="nonzero"></path>
+                <g id="Screen" transform="translate(25.000000, 48.000000)">
+                    <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="99" height="39" rx="10"></rect>
+                    <text id="Register" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="24.2363281" y="25">Register</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Join-down-arrow" transform="translate(49.500000, 223.000000)">
+                <path d="M0.5,-2.27373675e-13 L0.0431927567,53.3329864 C0.0195415009,56.0943089 2.23886251,58.3519762 5.00018497,58.3756274 C5.01445944,58.3757497 5.02873437,58.3758108 5.04300936,58.3758108 L134,58.3758108 L134,58.3758108" id="Left-down-arrow-Copy" stroke="#A21964" stroke-linecap="square"></path>
+                <path d="M268.609072,37 L268.609072,53.3758108 C268.609072,56.1372346 266.370496,58.3758108 263.609072,58.3758108 L134,58.3758108 L134,58.3758108" id="Righ-down-arrow-Copy" stroke="#A21964" stroke-linecap="square"></path>
+                <path id="Down-arrow-Copy" d="M133.266253,58.4935492 L134.266169,58.5065351 L134.259676,59.006493 L133.85,90.503 L137.850283,90.5557805 L133.233789,99.496585 L128.851041,90.4389073 L132.851,90.49 L133.259761,58.993507 L133.266253,58.4935492 Z" fill="#A21964" fill-rule="nonzero"></path>
+            </g>
+        </g>
+        <g id="Main-Application" transform="translate(32.000000, 363.000000)">
+            <g id="Fork-down-arrows" transform="translate(134.774731, 0.000000)">
+                <path d="M0.5,22.5720345 L0.5,5 C0.5,2.23857625 2.73857625,5.07265313e-16 5.5,0 L663.5,0 C666.261424,-5.07265313e-16 668.5,2.23857625 668.5,5 L668.5,25 L668.5,25" id="Down-arrow" stroke="#A21964" stroke-linecap="square"></path>
+                <path id="Down-arrow" d="M1,21.5 L1,29.5 L5,29.5 L0.5,38.5 L-4,29.5 L0,29.5 L0,21.5 L1,21.5 Z" fill="#A21964" fill-rule="nonzero"></path>
+                <path id="Down-arrow" d="M203.260296,0.494933775 L204.260203,0.50863112 L204.253354,1.00858421 L203.862,29.505 L207.862604,29.5606999 L203.23975,38.4982176 L198.863449,29.4374238 L202.863,29.492 L203.253448,0.994886869 L203.260296,0.494933775 Z" fill="#A21964" fill-rule="nonzero"></path>
+                <path id="Down-arrow" d="M428.260296,0.494933775 L429.260203,0.50863112 L429.253354,1.00858421 L428.862,29.505 L432.862604,29.5606999 L428.23975,38.4982176 L423.863449,29.4374238 L427.863,29.492 L428.253448,0.994886869 L428.260296,0.494933775 Z" fill="#A21964" fill-rule="nonzero"></path>
+                <path id="Down-arrow" d="M669,21.5 L669,29.5 L673,29.5 L668.5,38.5 L664,29.5 L668,29.5 L668,21.5 L669,21.5 Z" fill="#A21964" fill-rule="nonzero"></path>
+            </g>
+            <g id="Special-Offers" transform="translate(0.000000, 39.000000)">
+                <g id="Screen" transform="translate(72.274731, 0.000000)">
+                    <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="123" height="49" rx="10"></rect>
+                    <text id="Special-Offers" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#000000">
+                        <tspan x="18.1108398" y="30">Special Offers</tspan>
+                    </text>
+                </g>
+                <g id="2-arrows-fork" transform="translate(58.000000, 50.000000)">
+                    <line x1="75.7747312" y1="0.5" x2="75.7747312" y2="11.5" id="Line" stroke="#A21964" stroke-linecap="square"></line>
+                    <path d="M2.09317069,21.9815083 L2.09317069,17 C2.09317069,14.2385763 4.33174694,12 7.09317069,12 L75.7747312,12 L75.7747312,12" id="Line" stroke="#A21964" stroke-linecap="square"></path>
+                    <path d="M75.7747312,12 L147.093171,12 C149.854594,12 152.093171,14.2385763 152.093171,17 L152.093171,129.004343 C152.093171,131.765767 154.331747,134.004343 157.093171,134.004343 L214.527091,134.004343 L214.527091,134.004343" id="Line-Copy" stroke="#A21964" stroke-linecap="square" stroke-dasharray="4"></path>
+                    <path id="Down-arrow" d="M1.70466165,21.7346512 L2.70419029,21.7653514 L2.6888402,22.2651157 L2.504,28.262 L6.50274257,28.3854496 L1.72856207,37.2430565 L-2.49301517,28.109148 L1.504,28.232 L1.68931156,22.2344155 L1.70466165,21.7346512 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <path id="Down-arrow-" d="M195.217727,53.2907749 L195.646733,53.5475897 L203.522238,58.2620813 L204.284915,58.7186408 L203.498691,59.1333387 L195.380035,63.4155619 L194.937784,63.6488295 L194.471249,62.7643268 L194.9135,62.5310592 L201.343,59.139 L200.752827,59.1233629 L200.25301,59.1098545 L200.280027,58.1102195 L200.779844,58.1237279 L201.37,58.139 L195.133104,54.4056018 L194.704098,54.1487871 L195.217727,53.2907749 Z M192.282947,57.8940853 L192.782764,57.9075937 L195.305705,57.9757803 L196.781304,58.0156608 L197.281122,58.0291692 L197.254105,59.0288042 L196.754287,59.0152958 L195.278689,58.9754153 L192.755747,58.9072287 L192.25593,58.8937203 L192.282947,57.8940853 Z M184.285867,57.6779511 L184.785684,57.6914595 L188.784224,57.7995266 L189.284042,57.813035 L189.257025,58.81267 L188.757207,58.7991616 L184.758668,58.6910945 L184.25885,58.6775861 L184.285867,57.6779511 Z M176.288787,57.4618169 L176.788605,57.4753253 L180.787144,57.5833924 L181.286962,57.5969008 L181.259945,58.5965358 L180.760128,58.5830274 L176.761588,58.4749603 L176.26177,58.4614519 L176.288787,57.4618169 Z M168.291707,57.2456827 L168.791525,57.2591911 L172.790065,57.3672582 L173.289882,57.3807666 L173.262865,58.3804016 L172.763048,58.3668932 L168.764508,58.2588261 L168.26469,58.2453177 L168.291707,57.2456827 Z M160.294627,57.0295485 L160.794445,57.0430569 L164.792985,57.151124 L165.292802,57.1646324 L165.265785,58.1642674 L164.765968,58.150759 L160.767428,58.0426919 L160.267611,58.0291835 L160.294627,57.0295485 Z M152.297547,56.8134143 L152.797365,56.8269227 L156.795905,56.9349898 L157.295722,56.9484982 L157.268706,57.9481331 L156.768888,57.9346248 L152.770348,57.8265577 L152.270531,57.8130493 L152.297547,56.8134143 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <path id="Down-arrow-" d="M214.428462,128.712448 L214.857491,128.969225 L222.733402,133.683036 L223.496119,134.13953 L222.70993,134.554296 L214.591645,138.83722 L214.149414,139.070526 L213.682802,138.186064 L214.125033,137.952758 L220.554,134.56 L214.965879,134.409905 L214.466061,134.39644 L214.492991,133.396803 L214.99281,133.410268 L220.581,133.56 L214.343935,129.827282 L213.914907,129.570504 L214.428462,128.712448 Z" fill="#A21964" fill-rule="nonzero"></path>
+                </g>
+                <g id="Screen" transform="translate(0.274731, 88.000000)">
+                    <rect id="Rectangle" stroke="#9D9D9D" x="0.5" y="0.5" width="113" height="39" rx="10"></rect>
+                    <text id="Offer-Details" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="15.8676758" y="25">Offer Details</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Catalog" transform="translate(261.274731, 39.000000)">
+                <g id="Screen" transform="translate(17.000000, 0.000000)">
+                    <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="123" height="49" rx="10"></rect>
+                    <text id="Catalog" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#000000">
+                        <tspan x="38.2563477" y="30">Catalog</tspan>
+                    </text>
+                </g>
+                <path id="Down-arrow" d="M76.2604195,48.9960124 L77.2603257,49.0097098 L77.253477,49.5096629 L76.863,78.006 L80.8627274,78.0617786 L76.2398735,86.9992962 L71.8635718,77.9385025 L75.863,77.993 L76.2535708,49.4959655 L76.2604195,48.9960124 Z" fill="#A21964" fill-rule="nonzero"></path>
+                <g id="Screen" transform="translate(0.000000, 87.000000)">
+                    <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="152" height="39" rx="10"></rect>
+                    <text id="Products-Categories" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="12.8276367" y="25">Products Categories</tspan>
+                    </text>
+                </g>
+                <path id="Down-arrow" d="M76.2604195,125.996012 L77.2603257,126.00971 L77.253477,126.509663 L76.863,155.006 L80.8627274,155.061779 L76.2398735,163.999296 L71.8635718,154.938502 L75.863,154.993 L76.2535708,126.495966 L76.2604195,125.996012 Z" fill="#A21964" fill-rule="nonzero"></path>
+                <g id="Screen" transform="translate(20.000000, 164.000000)">
+                    <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="110" height="39" rx="10"></rect>
+                    <text id="Product-Item" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="14.6552734" y="25">Product Item</tspan>
+                    </text>
+                </g>
+                <path id="Down-arrow" d="M76.2688517,203.244238 L77.2687578,203.257936 L77.2619092,203.757889 L77.1311968,213.299892 C77.0981277,215.713939 78.9721991,217.710012 81.3573878,217.853309 L81.5691366,217.861108 L181.059802,219.223994 C184.023003,219.264586 186.406733,221.64124 186.482614,224.577567 L186.483951,224.798813 L186.354,234.254 L190.354038,234.309817 L185.731184,243.247334 L181.354883,234.186541 L185.354,234.241 L185.484045,224.785116 C185.517114,222.371069 183.643042,220.374996 181.257854,220.231699 L181.046105,220.2239 L81.5554392,218.861014 C78.5922381,218.820423 76.2085083,216.443769 76.1326274,213.507441 L76.1312906,213.286195 L76.262003,203.744191 L76.2688517,203.244238 Z" fill="#A21964" fill-rule="nonzero"></path>
+            </g>
+            <g id="Places" transform="translate(461.274731, 39.000000)">
+                <g id="Screen" transform="translate(40.000000, 0.000000)">
+                    <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="123" height="49" rx="10"></rect>
+                    <text id="Places" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#000000">
+                        <tspan x="41.3359375" y="30">Places</tspan>
+                    </text>
+                </g>
+                <g id="2-arrows-fork" transform="translate(47.725269, 50.000000)">
+                    <line x1="54.7747312" y1="0.5" x2="54.7747312" y2="11.5" id="Line" stroke="#A21964" stroke-linecap="square"></line>
+                    <path d="M0.846571574,21.9815083 L0.846571574,17 C0.846571574,14.2385763 3.08514782,12 5.84657157,12 L106.274731,12 C109.036155,12 111.274731,14.2385763 111.274731,17 L111.274731,21.9815083 L111.274731,21.9815083" id="Line" stroke="#A21964" stroke-linecap="square"></path>
+                    <path id="Down-arrow" d="M0.456256881,21.8841681 L1.45616307,21.8978655 L1.4493144,22.3978186 L1.36,28.905 L5.35978712,28.9607057 L0.736933173,37.8982233 L-3.63936856,28.8374296 L0.36,28.892 L0.449408208,22.3841212 L0.456256881,21.8841681 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <path id="Down-arrow-" d="M110.883411,22.2548004 L111.883317,22.2684977 L111.876468,22.7684508 L111.789,29.129 L115.788952,29.1844993 L111.166099,38.1220169 L106.789797,29.0612231 L110.789,29.116 L110.876562,22.7547535 L110.883411,22.2548004 Z" fill="#A21964" fill-rule="nonzero"></path>
+                </g>
+                <g id="Screen" transform="translate(0.000000, 88.000000)">
+                    <rect id="Rectangle" stroke="#9D9D9D" x="0.5" y="0.5" width="99" height="39" rx="10"></rect>
+                    <text id="Table" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="30.8896484" y="25">Table</tspan>
+                    </text>
+                </g>
+                <g id="Screen" transform="translate(111.000000, 88.000000)">
+                    <rect id="Rectangle" stroke="#9D9D9D" x="0.5" y="0.5" width="99" height="39" rx="10"></rect>
+                    <text id="Map" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="34.0239258" y="25">Map</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Profile" transform="translate(740.274731, 39.000000)">
+                <g id="Screen">
+                    <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="123" height="49" rx="10"></rect>
+                    <text id="Profile" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#000000">
+                        <tspan x="41.7973633" y="30">Profile</tspan>
+                    </text>
+                </g>
+                <g id="Down-left-fork" transform="translate(63.500000, 49.494861)">
+                    <path d="M0,0 L0,232.505139 C3.38176876e-16,235.266563 2.23857625,237.505139 5,237.505139 L18.267137,237.505139 L18.267137,237.505139" id="Line-3" stroke="#A21964" stroke-linecap="square"></path>
+                    <path id="Arrow" d="M23.5,233.005139 L32.5,237.505139 L23.5,242.005139 L23.5,238.005 L7.5,238.005139 L7.5,237.005139 L23.5,237.005 L23.5,233.005139 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <path id="Arrow" d="M23.5,183.005139 L32.5,187.505139 L23.5,192.005139 L23.5,188.005 L0.5,188.005139 L0.5,187.005139 L23.5,187.005 L23.5,183.005139 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <path id="Arrow" d="M23.5,134.005139 L32.5,138.505139 L23.5,143.005139 L23.5,139.005 L0.5,139.005139 L0.5,138.005139 L23.5,138.005 L23.5,134.005139 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <path id="Arrow" d="M23.5,84.0051388 L32.5,88.5051388 L23.5,93.0051388 L23.5,89.005 L0.5,89.0051388 L0.5,88.0051388 L23.5,88.005 L23.5,84.0051388 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <path id="Arrow" d="M23.5,34.0051388 L32.5,38.5051388 L23.5,43.0051388 L23.5,39.005 L0.5,39.0051388 L0.5,38.0051388 L23.5,38.005 L23.5,34.0051388 Z" fill="#A21964" fill-rule="nonzero"></path>
+                </g>
+                <g id="Screen" transform="translate(96.000000, 67.000000)">
+                    <rect id="Rectangle" stroke="#9D9D9D" x="0.5" y="0.5" width="86" height="39" rx="10"></rect>
+                    <text id="Rewards" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="18" y="25">Rewards</tspan>
+                    </text>
+                </g>
+                <g id="Screen" transform="translate(96.000000, 117.000000)">
+                    <rect id="Rectangle" stroke="#9D9D9D" x="0.5" y="0.5" width="74" height="39" rx="10"></rect>
+                    <text id="Orders" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="18" y="25">Orders</tspan>
+                    </text>
+                </g>
+                <g id="Screen" transform="translate(96.000000, 167.000000)">
+                    <rect id="Rectangle" stroke="#9D9D9D" x="0.5" y="0.5" width="122" height="39" rx="10"></rect>
+                    <text id="Card-payment" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="18" y="25">Card payment</tspan>
+                    </text>
+                </g>
+                <g id="Screen" transform="translate(96.000000, 217.000000)">
+                    <rect id="Rectangle" stroke="#9D9D9D" x="0.5" y="0.5" width="96" height="39" rx="10"></rect>
+                    <text id="Feedback" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="18" y="25">Feedback</tspan>
+                    </text>
+                </g>
+                <g id="Screen" transform="translate(96.000000, 267.000000)">
+                    <rect id="Rectangle" stroke="#9D9D9D" x="0.5" y="0.5" width="77" height="39" rx="10"></rect>
+                    <text id="Logout" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="18" y="25">Logout</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Basket" transform="translate(244.274731, 281.000000)">
+                <g id="Screen" transform="translate(140.000000, 0.000000)">
+                    <rect id="Rectangle" stroke="#A21964" x="1.22526881" y="0.5" width="123" height="49" rx="10"></rect>
+                    <text id="Basket" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#000000">
+                        <tspan x="41.5621829" y="30">Basket</tspan>
+                    </text>
+                </g>
+                <path id="Down-arrow" d="M202.636394,48.492706 L203.63631,48.5056919 L203.629817,49.0056498 L203.48,60.504 L207.480142,60.5566237 L202.863648,69.4974282 L198.480901,60.4397505 L202.48,60.491 L202.629901,48.9926638 L202.636394,48.492706 Z" fill="#A21964" fill-rule="nonzero"></path>
+                <g id="Condition" transform="translate(143.000000, 69.000000)">
+                    <text id="Delivery-type" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="20.140625" y="65">Delivery type</tspan>
+                    </text>
+                    <rect id="Rectangle" stroke="#9D9D9D" transform="translate(60.000000, 60.000000) rotate(45.000000) translate(-60.000000, -60.000000) " x="18.5" y="18.5" width="83" height="83"></rect>
+                </g>
+                <g id="Delivery" transform="translate(0.225269, 107.000000)">
+                    <path id="Left-down-arrow" d="M143.60303,21.5416306 L143.60303,22.5416306 L73.754834,22.5416306 C71.3405607,22.5416306 69.3703449,24.4428671 69.259732,26.8297949 L69.254834,27.0416306 L69.254,32.87 L73.254834,32.8709296 L68.754834,41.8709296 L64.254834,32.8709296 L68.254,32.87 L68.254834,27.0416306 C68.254834,24.0781514 70.598614,21.6620914 73.5336269,21.5459978 L73.754834,21.5416306 L143.60303,21.5416306 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <text font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="82.5" y="15">Delivery</tspan>
+                    </text>
+                    <g id="Condition" transform="translate(22.774731, 42.000000)">
+                        <text id="Address-provided" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="12" fill="#000000">
+                            <tspan x="23.8678469" y="46">Address </tspan>
+                            <tspan x="22.7252688" y="58">provided</tspan>
+                        </text>
+                        <rect id="Rectangle" stroke="#9D9D9D" transform="translate(45.980103, 45.254834) rotate(45.000000) translate(-45.980103, -45.254834) " x="14.4801028" y="13.754834" width="63" height="63"></rect>
+                    </g>
+                    <path d="M24.1030304,87.0416306 L5.49083399,87.0088027 C2.73299365,87.0039385 0.491967688,89.2329827 0.482047448,91.9908095 L0.0180503075,220.982015 C0.00811719285,223.74342 2.23862658,225.990035 5.00003246,225.999968 C5.00602761,225.999989 5.01202278,226 5.01801796,226 L68.7747312,226 L68.7747312,226" id="Left-down-arrow" stroke="#A21964" stroke-linecap="square"></path>
+                    <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="0.5" y="80">Yes</tspan>
+                    </text>
+                    <path d="M94,138.947158 L94,136 C94,133.238576 96.2385763,131 99,131 L168.595881,131 C171.357305,131 173.595881,133.238576 173.595881,136 L173.595881,144.224134 L173.595881,144.224134" id="Line" stroke="#A21964" stroke-linecap="square"></path>
+                    <path id="Down-arrow" d="M93.5879522,139.158382 L94.5878583,139.17208 L94.5810097,139.672033 L94.535,143.006 L98.5349487,143.06188 L93.9120947,151.999398 L89.535793,142.938604 L93.535,142.993 L93.5811035,139.658335 L93.5879522,139.158382 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <path id="Down-arrow-" d="M173.203793,136.363162 L174.203699,136.376859 L174.196851,136.876812 L174.111,143.125 L178.110871,143.180742 L173.488017,152.118259 L169.111715,143.057466 L173.111,143.112 L173.196944,136.863115 L173.203793,136.363162 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <path d="M113.89697,87.0416306 L130.138072,87.0098142 C132.89949,87.0044046 135.142447,89.2385912 135.147857,92.0000096 C135.147864,92.0032746 135.147867,92.0065396 135.147867,92.0098046 L135.147867,131 L135.147867,131" id="Righ-down-arrow" stroke="#A21964" stroke-linecap="square"></path>
+                    <text id="No" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="114.5" y="80">No</tspan>
+                    </text>
+                    <g id="Screen" transform="translate(52.500000, 152.000000)">
+                        <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="88" height="29" rx="10"></rect>
+                        <text id="Input-address" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#000000">
+                            <tspan x="8.43945312" y="20">Input address</tspan>
+                        </text>
+                    </g>
+                    <g id="Screen" transform="translate(151.500000, 152.000000)">
+                        <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="50" height="29" rx="10"></rect>
+                        <text id="Map" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#000000">
+                            <tspan x="14.0205078" y="20">Map</tspan>
+                        </text>
+                    </g>
+                    <path d="M94.3465716,182 L94.3465716,199.777067 C94.3465716,202.538491 96.5851478,204.777067 99.3465716,204.777067 L135.147867,204.777067 L135.147867,204.777067" id="Left-down-arrow" stroke="#A21964" stroke-linecap="square"></path>
+                    <path d="M173.595881,182 L173.595881,199.777067 C173.595881,202.538491 171.357305,204.777067 168.595881,204.777067 L135.147867,204.777067 L135.147867,204.777067" id="Righ-down-arrow" stroke="#A21964" stroke-linecap="square"></path>
+                    <path d="M134.898854,205.426138 L134.691057,221.426475 C134.655197,224.187666 132.38774,226.396984 129.626549,226.361124 L68.871954,225.572103 L68.871954,225.572103" id="Down-arrow" stroke="#A21964" stroke-linecap="square" transform="translate(101.885404, 215.926096) rotate(-0.744059) translate(-101.885404, -215.926096) "></path>
+                    <path id="Down-arrow" d="M68.2825674,226.493655 L69.2824831,226.506641 L69.2759901,227.006599 L69.094,241.017 L73.093687,241.069914 L68.4771931,250.010719 L64.0944458,240.953041 L68.094,241.005 L68.2760744,226.993613 L68.2825674,226.493655 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <g id="Screen" transform="translate(14.774731, 250.000000)">
+                        <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="110" height="39" rx="10"></rect>
+                        <text id="Delivery-time" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                            <tspan x="14.7578125" y="25">Delivery time</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Pickup" transform="translate(262.122238, 107.000000)">
+                    <path id="Righ-down-arrow" d="M70.698127,21.3619815 C73.6615966,21.3544512 76.0836044,23.6920844 76.2071557,26.6267927 L76.212085,26.8479881 L76.212,32.87 L80.2121027,32.8709296 L75.7121027,41.8709296 L71.2121027,32.8709296 L75.212,32.87 L75.2120882,26.8505291 C75.2059534,24.4362636 73.2997166,22.4708853 70.9125155,22.366338 L70.700668,22.3619783 L0.00127052035,22.5416289 L-0.498727865,22.5428995 L-0.501268906,21.5429027 L-0.00127052035,21.5416322 L70.698127,21.3619815 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <text font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="15.6030304" y="15">Pickup</tspan>
+                    </text>
+                    <g id="Condition" transform="translate(30.877762, 42.000000)">
+                        <text id="Nearestplace" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="12" fill="#000000">
+                            <tspan x="22.7252688" y="46">Nearest</tspan>
+                            <tspan x="29.2848391" y="58">place</tspan>
+                        </text>
+                        <rect id="Rectangle" stroke="#9D9D9D" transform="translate(45.980103, 45.254834) rotate(45.000000) translate(-45.980103, -45.254834) " x="14.4801028" y="13.754834" width="63" height="63"></rect>
+                    </g>
+                    <path d="M32.2060608,87.0416306 L13.6118493,87.0088345 C10.8504298,87.0039639 8.60790869,89.2385883 8.60303816,92.0000078 C8.60303297,92.0029474 8.60303038,92.005887 8.60303038,92.0088267 L8.60303038,221 C8.60303038,223.761424 10.8416066,226 13.6030304,226 L76.8777616,226 L76.8777616,226" id="Left-down-arrow-Copy-2" stroke="#A21964" stroke-linecap="square"></path>
+                    <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="8.60303038" y="80">Yes</tspan>
+                    </text>
+                    <path d="M102.10303,138.947158 L102.10303,136 C102.10303,133.238576 104.341607,131 107.10303,131 L176.698912,131 C179.460336,131 181.698912,133.238576 181.698912,136 L181.698912,144.224134 L181.698912,144.224134" id="Line" stroke="#A21964" stroke-linecap="square"></path>
+                    <path id="Down-arrow" d="M101.690983,139.158382 L102.690889,139.17208 L102.68404,139.672033 L102.638,143.006 L106.637979,143.06188 L102.015125,151.999398 L97.6388234,142.938604 L101.638,142.993 L101.684134,139.658335 L101.690983,139.158382 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <path id="Down-arrow-" d="M181.306823,136.363162 L182.30673,136.376859 L182.299881,136.876812 L182.214,143.125 L186.213901,143.180742 L181.591047,152.118259 L177.214745,143.057466 L181.214,143.112 L181.299975,136.863115 L181.306823,136.363162 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <path d="M122,87.0416306 L138.241102,87.0098142 C141.002521,87.0044046 143.245478,89.2385912 143.250887,92.0000096 C143.250894,92.0032746 143.250897,92.0065396 143.250897,92.0098046 L143.250897,131 L143.250897,131" id="Righ-down-arrow" stroke="#A21964" stroke-linecap="square"></path>
+                    <text id="No" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="122.60303" y="80">No</tspan>
+                    </text>
+                    <g id="Screen" transform="translate(59.603030, 152.000000)">
+                        <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="90" height="29" rx="10"></rect>
+                        <text id="List-of-venues" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#000000">
+                            <tspan x="8.7890625" y="20">List of venues</tspan>
+                        </text>
+                    </g>
+                    <g id="Screen" transform="translate(159.603030, 152.000000)">
+                        <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="50" height="29" rx="10"></rect>
+                        <text id="Map" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#000000">
+                            <tspan x="14.0205078" y="20">Map</tspan>
+                        </text>
+                    </g>
+                    <path d="M102.449602,182 L102.449602,199.777067 C102.449602,202.538491 104.688178,204.777067 107.449602,204.777067 L143.250897,204.777067 L143.250897,204.777067" id="Left-down-arrow" stroke="#A21964" stroke-linecap="square"></path>
+                    <path d="M181.698912,182 L181.698912,199.777067 C181.698912,202.538491 179.460336,204.777067 176.698912,204.777067 L143.250897,204.777067 L143.250897,204.777067" id="Righ-down-arrow" stroke="#A21964" stroke-linecap="square"></path>
+                    <path d="M143.001884,205.426138 L142.794087,221.426475 C142.758228,224.187666 140.49077,226.396984 137.729579,226.361124 L76.9749844,225.572103 L76.9749844,225.572103" id="Down-arrow" stroke="#A21964" stroke-linecap="square" transform="translate(109.988434, 215.926096) rotate(-0.744059) translate(-109.988434, -215.926096) "></path>
+                    <path id="Down-arrow" d="M76.3855978,226.493655 L77.3855134,226.506641 L77.3790205,227.006599 L77.197,241.017 L81.1967173,241.069914 L76.5802235,250.010719 L72.1974762,240.953041 L76.197,241.005 L76.3791048,226.993613 L76.3855978,226.493655 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <g id="Screen" transform="translate(22.877762, 250.000000)">
+                        <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="110" height="39" rx="10"></rect>
+                        <text id="Pickup-time" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                            <tspan x="18.2475586" y="25">Pickup time</tspan>
+                        </text>
+                    </g>
+                </g>
+                <path d="M69.2252688,397 L69.2252688,413.375811 C69.2252688,416.137235 71.4638451,418.375811 74.2252688,418.375811 L203.225269,418.375811 L203.225269,418.375811" id="Left-down-arrow" stroke="#A21964" stroke-linecap="square"></path>
+                <path d="M337.834341,397 L337.834341,413.375811 C337.834341,416.137235 335.595765,418.375811 332.834341,418.375811 L203.225269,418.375811 L203.225269,418.375811" id="Righ-down-arrow" stroke="#A21964" stroke-linecap="square"></path>
+                <path id="Down-arrow" d="M202.398712,418.489954 L203.39847,418.511948 L203.387473,419.011828 L203.024,435.51 L207.023538,435.598514 L202.326677,444.497362 L198.025716,435.400565 L202.024,435.488 L202.387715,418.989833 L202.398712,418.489954 Z" fill="#A21964" fill-rule="nonzero"></path>
+                <g id="Payment-method" transform="translate(129.225269, 444.000000)">
+                    <g id="Screen" transform="translate(0.774731, 0.000000)">
+                        <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="147" height="39" rx="10"></rect>
+                        <text id="Payment-method" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                            <tspan x="20.3273196" y="25">Payment method</tspan>
+                        </text>
+                    </g>
+                    <path id="Down-arrow" d="M73.1734436,38.4899541 L74.1732017,38.5119485 L74.1622045,39.0118275 L73.798,55.51 L77.7982697,55.5985143 L73.1014086,64.4973623 L68.8004468,55.4005646 L72.799,55.488 L73.1624464,38.9898331 L73.1734436,38.4899541 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <g id="Condition" transform="translate(27.774731, 63.000000)">
+                        <text id="Card-payment" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="12" fill="#000000">
+                            <tspan x="27.4733157" y="44.3027344">Card </tspan>
+                            <tspan x="16.3990969" y="56.3027344">payment</tspan>
+                        </text>
+                        <rect id="Rectangle" stroke="#9D9D9D" transform="translate(45.980103, 45.254834) rotate(45.000000) translate(-45.980103, -45.254834) " x="14.4801028" y="13.754834" width="63" height="63"></rect>
+                    </g>
+                    <path d="M30.1030304,108.041631 L11.5088189,108.008834 C8.74739943,108.003964 6.50487831,110.238588 6.50000778,113.000008 C6.50000259,113.002947 6.5,113.005887 6.5,113.008827 L6.5,187.303707 C6.5,190.065131 8.73857625,192.303707 11.5,192.303707 L73.0300561,192.303707 L73.0300561,192.303707" id="Left-down-arrow" stroke="#A21964" stroke-linecap="square"></path>
+                    <text id="No" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="5.5" y="101">No</tspan>
+                    </text>
+                    <path id="Down-arrow" d="M139.720127,131.433389 L140.720034,131.447086 L140.713185,131.947039 L140.698,132.99 L144.698507,133.04594 L140.075653,141.983458 L135.699351,132.922664 L139.698,132.977 L139.713279,131.933342 L139.720127,131.433389 Z" fill="#A21964" fill-rule="nonzero"></path>
+                    <path d="M118.89697,108.041631 L135.138072,108.009814 C137.89949,108.004405 140.142447,110.238591 140.147857,113.00001 C140.147864,113.003275 140.147867,113.00654 140.147867,113.009805 L140.147867,131.446859 L140.147867,131.446859" id="Righ-down-arrow" stroke="#A21964" stroke-linecap="square"></path>
+                    <text id="Yes" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="119.5" y="101">Yes</tspan>
+                    </text>
+                    <g id="Screen" transform="translate(95.500000, 142.000000)">
+                        <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="88" height="29" rx="10"></rect>
+                        <text id="Attach-card" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#000000">
+                            <tspan x="14.2373047" y="20">Attach card</tspan>
+                        </text>
+                    </g>
+                    <path d="M141.134665,172.43731 L140.935932,187.739727 C140.900073,190.500918 138.632615,192.710235 135.871424,192.674376 L73.6514025,191.866324 L73.6514025,191.866324" id="Down-arrow" stroke="#A21964" stroke-linecap="square" transform="translate(107.393034, 182.588308) rotate(-0.744059) translate(-107.393034, -182.588308) "></path>
+                    <path id="Down-arrow" d="M73.2988813,192.493549 L74.298797,192.506535 L74.292304,193.006493 L74.11,207.017 L78.1100009,207.069808 L73.493507,216.010613 L69.1107597,206.952935 L73.11,207.004 L73.2923883,192.993507 L73.2988813,192.493549 Z" fill="#A21964" fill-rule="nonzero"></path>
+                </g>
+                <g id="Screen" transform="translate(147.725269, 660.000000)">
+                    <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="110" height="39" rx="10"></rect>
+                    <text id="Submit-order" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="14.7441406" y="25">Submit order</tspan>
+                    </text>
+                </g>
+                <path d="M149.57184,721.981508 L149.57184,717 C149.57184,714.238576 151.810417,712 154.57184,712 L255,712 C257.761424,712 260,714.238576 260,717 L260,721.981508 L260,721.981508" id="Line" stroke="#A21964" stroke-linecap="square"></path>
+                <line x1="203.5" y1="700.5" x2="203.5" y2="711.5" id="Line" stroke="#A21964" stroke-linecap="square"></line>
+                <path id="Down-arrow" d="M149.181526,721.884168 L150.181432,721.897865 L150.174583,722.397819 L150.085,728.905 L154.085056,728.960706 L149.462202,737.898223 L145.0859,728.83743 L149.085,728.892 L149.174677,722.384121 L149.181526,721.884168 Z" fill="#A21964" fill-rule="nonzero"></path>
+                <path id="Down-arrow-" d="M259.60868,722.2548 L260.608586,722.268498 L260.601737,722.768451 L260.514,729.129 L264.514221,729.184499 L259.891367,738.122017 L255.515066,729.061223 L259.514,729.116 L259.601831,722.754753 L259.60868,722.2548 Z" fill="#A21964" fill-rule="nonzero"></path>
+                <g id="Screen" transform="translate(218.725269, 739.000000)">
+                    <rect id="Rectangle" stroke="#A21964" x="2.5" y="0.5" width="80" height="29" rx="10"></rect>
+                    <text id="Receipt" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+                        <tspan x="19.5810547" y="20">Receipt</tspan>
+                    </text>
+                </g>
+                <g id="Screen" transform="translate(104.725269, 739.000000)">
+                    <rect id="Rectangle" stroke="#A21964" x="0.5" y="0.5" width="86" height="52" rx="10"></rect>
+                    <text id="Order-processing-sta" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="12" fill="#000000">
+                        <tspan x="19.6152344" y="20.1865234">Order </tspan>
+                        <tspan x="2.05371094" y="32.1865234">processing </tspan>
+                        <tspan x="16.8125" y="44.1865234">status</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

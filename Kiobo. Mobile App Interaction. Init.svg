@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700px" height="1000px" viewBox="0 0 700 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Kiobo. Mobile App Interaction. Init</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="194" height="34" rx="10"></rect>
+        <filter x="-3.6%" y="-14.7%" width="107.2%" height="141.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="205" height="34" rx="10"></rect>
+        <filter x="-3.4%" y="-14.7%" width="106.8%" height="141.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Kiobo.-Mobile-App-Interaction.-Init" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="700" height="1000"></rect>
+        <g id="Initial-Load" transform="translate(84.000000, 26.000000)">
+            <g id="Mobile-App" transform="translate(2.000000, 57.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#A21964" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text font-family="Lato-Bold, Lato" font-size="16" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="55.824" y="23">Mobile App</tspan>
+                </text>
+                <line x1="97" y1="34" x2="96.5" y2="846.5" id="Line" stroke="#720F45" stroke-width="3" stroke-linecap="square"></line>
+            </g>
+            <g id="Kiobo" transform="translate(328.000000, 57.000000)">
+                <line x1="102.5" y1="34.5" x2="102.5" y2="846.5" id="Line" stroke="#720F45" stroke-width="3" stroke-linecap="square"></line>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#A21964" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <text id="Kiobo-API" font-family="Lato-Bold, Lato" font-size="16" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="66.196" y="24">Kiobo API</tspan>
+                </text>
+            </g>
+            <g id="Auth-Controller" transform="translate(0.000000, 122.000000)">
+                <rect id="Rectangle" fill="#A21964" x="90" y="4" width="20" height="106" rx="4"></rect>
+                <text transform="translate(100.000000, 57.500000) rotate(-90.000000) translate(-100.000000, -57.500000) " font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="65.9375" y="61">Auth Controller</tspan>
+                </text>
+                <text id="--create-customer-if" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#5D4040">
+                    <tspan x="442" y="13">- create customer if not </tspan>
+                    <tspan x="442" y="29">exists</tspan>
+                    <tspan x="442" y="45">- generate OTP and send via </tspan>
+                    <tspan x="442" y="61">sms to user</tspan>
+                </text>
+                <g id="Request-OTP" transform="translate(110.000000, 4.000000)">
+                    <text font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#720F45">
+                        <tspan x="42" y="16">Request OTP</tspan>
+                    </text>
+                    <text id="POST-/customers/otp" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal">
+                        <tspan x="42" y="43" fill="#3E7800">POST</tspan>
+                        <tspan x="72.3808594" y="43" fill="#5D4040"> /customers/otp    [phone number]</tspan>
+                    </text>
+                    <path id="Request" d="M305.368686,18.8881632 L306.240261,19.3784245 L318.240261,26.1284245 L319.789729,27 L318.240261,27.8715755 L306.240261,34.6215755 L305.368686,35.1118368 L304.388163,33.3686857 L305.259739,32.8784245 L313.931,28 L-1,28 L-1,26 L313.934,26 L305.259739,21.1215755 L304.388163,20.6313143 L305.368686,18.8881632 Z" fill="#720F45" fill-rule="nonzero"></path>
+                </g>
+                <g id="Authenticate" transform="translate(111.000000, 64.000000)">
+                    <text font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#720F45">
+                        <tspan x="41" y="16">Authenticate</tspan>
+                    </text>
+                    <text id="GET-/oauth/token-[cr" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal">
+                        <tspan x="41" y="43" fill="#0091FF">GET</tspan>
+                        <tspan x="63.3417969" y="43" fill="#5D4040"> /oauth/token    [credentials]</tspan>
+                    </text>
+                    <text id="return-auth-token-in" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#5D4040">
+                        <tspan x="331" y="29">return auth token info</tspan>
+                    </text>
+                    <path id="Request" d="M304.368686,18.8881632 L305.240261,19.3784245 L317.240261,26.1284245 L318.789729,27 L317.240261,27.8715755 L305.240261,34.6215755 L304.368686,35.1118368 L303.388163,33.3686857 L304.259739,32.8784245 L312.931,28 L-1,28 L-1,26 L312.934,26 L304.259739,21.1215755 L303.388163,20.6313143 L304.368686,18.8881632 Z" fill="#720F45" fill-rule="nonzero"></path>
+                </g>
+                <text id="Authentication" font-family="Roboto-Bold, Roboto" font-size="12" font-weight="bold" fill="#5D4040">
+                    <tspan x="3.46484375" y="61">Authentication</tspan>
+                </text>
+            </g>
+            <g id="Profile-Controller" transform="translate(90.000000, 276.000000)">
+                <g id="Get-customer-info" transform="translate(20.000000, 0.000000)">
+                    <text font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#720F45">
+                        <tspan x="42" y="16">Get customer info</tspan>
+                    </text>
+                    <path id="Request" d="M305.368686,18.8881632 L306.240261,19.3784245 L318.240261,26.1284245 L319.789729,27 L318.240261,27.8715755 L306.240261,34.6215755 L305.368686,35.1118368 L304.388163,33.3686857 L305.259739,32.8784245 L313.931,28 L-1,28 L-1,26 L313.934,26 L305.259739,21.1215755 L304.388163,20.6313143 L305.368686,18.8881632 Z" fill="#720F45" fill-rule="nonzero"></path>
+                    <text id="GET-/customers/curre" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal">
+                        <tspan x="42" y="43" fill="#0091FF">GET</tspan>
+                        <tspan x="64.3417969" y="43" fill="#5D4040"> /customers/current</tspan>
+                    </text>
+                </g>
+                <g id="Get-bank-cards" transform="translate(21.000000, 60.000000)">
+                    <text font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#720F45">
+                        <tspan x="41" y="16">Get bank cards</tspan>
+                    </text>
+                    <text id="GET-/customers/curre" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal">
+                        <tspan x="41" y="43" fill="#0091FF">GET</tspan>
+                        <tspan x="63.3417969" y="43" fill="#5D4040"> /customers/current/bank-cards</tspan>
+                    </text>
+                    <path id="Request" d="M304.368686,18.8881632 L305.240261,19.3784245 L317.240261,26.1284245 L318.789729,27 L317.240261,27.8715755 L305.240261,34.6215755 L304.368686,35.1118368 L303.388163,33.3686857 L304.259739,32.8784245 L312.931,28 L-1,28 L-1,26 L312.934,26 L304.259739,21.1215755 L303.388163,20.6313143 L304.368686,18.8881632 Z" fill="#720F45" fill-rule="nonzero"></path>
+                </g>
+                <rect id="Rectangle-Copy" fill="#A21964" x="0" y="0" width="20" height="106" rx="4"></rect>
+                <text transform="translate(9.500000, 53.500000) rotate(-90.000000) translate(-9.500000, -53.500000) " font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="-28.9057617" y="57">Profile Controller</tspan>
+                </text>
+            </g>
+            <g id="Catalog-Controller" transform="translate(90.000000, 436.000000)">
+                <g id="Get-stock-items" transform="translate(11.000000, 0.000000)">
+                    <text font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#720F45">
+                        <tspan x="51" y="16">Get stock items</tspan>
+                    </text>
+                    <text id="GET-/stock-items" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal">
+                        <tspan x="51" y="43" fill="#0091FF">GET</tspan>
+                        <tspan x="73.3417969" y="43" fill="#5D4040"> /stock-items</tspan>
+                    </text>
+                    <path id="Request" d="M314.368686,18.8881632 L315.240261,19.3784245 L327.240261,26.1284245 L328.789729,27 L327.240261,27.8715755 L315.240261,34.6215755 L314.368686,35.1118368 L313.388163,33.3686857 L314.259739,32.8784245 L322.931,28 L-1,28 L-1,26 L322.934,26 L314.259739,21.1215755 L313.388163,20.6313143 L314.368686,18.8881632 Z" fill="#720F45" fill-rule="nonzero"></path>
+                </g>
+                <g id="Get-stock-categories" transform="translate(11.000000, 60.000000)">
+                    <text font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#720F45">
+                        <tspan x="51" y="16">Get stock categories</tspan>
+                    </text>
+                    <text id="GET-/stock-categorie" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal">
+                        <tspan x="51" y="43" fill="#0091FF">GET</tspan>
+                        <tspan x="73.3417969" y="43" fill="#5D4040"> /stock-categories</tspan>
+                    </text>
+                    <path id="Request" d="M314.368686,18.8881632 L315.240261,19.3784245 L327.240261,26.1284245 L328.789729,27 L327.240261,27.8715755 L315.240261,34.6215755 L314.368686,35.1118368 L313.388163,33.3686857 L314.259739,32.8784245 L322.931,28 L-1,28 L-1,26 L322.934,26 L314.259739,21.1215755 L313.388163,20.6313143 L314.368686,18.8881632 Z" fill="#720F45" fill-rule="nonzero"></path>
+                </g>
+                <rect id="Rectangle" fill="#A21964" x="0" y="0" width="20" height="106" rx="4"></rect>
+                <text transform="translate(10.000000, 53.500000) rotate(-90.000000) translate(-10.000000, -53.500000) " font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="-30.5283203" y="57">Catalog Controller</tspan>
+                </text>
+            </g>
+            <g id="Order-Controller" transform="translate(90.000000, 586.000000)">
+                <g id="Get-payment-types" transform="translate(20.000000, 0.000000)">
+                    <text font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#720F45">
+                        <tspan x="42" y="16">Get payment types</tspan>
+                    </text>
+                    <text id="GET-/payment-types" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal">
+                        <tspan x="42" y="43" fill="#0091FF">GET</tspan>
+                        <tspan x="64.3417969" y="43" fill="#5D4040"> /payment-types</tspan>
+                    </text>
+                    <path id="Request" d="M305.368686,18.8881632 L306.240261,19.3784245 L318.240261,26.1284245 L319.789729,27 L318.240261,27.8715755 L306.240261,34.6215755 L305.368686,35.1118368 L304.388163,33.3686857 L305.259739,32.8784245 L313.931,28 L-1,28 L-1,26 L313.934,26 L305.259739,21.1215755 L304.388163,20.6313143 L305.368686,18.8881632 Z" fill="#720F45" fill-rule="nonzero"></path>
+                </g>
+                <g id="Get-orders-" transform="translate(20.000000, 60.000000)">
+                    <text id="Get-orders" font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#720F45">
+                        <tspan x="42" y="16">Get orders</tspan>
+                    </text>
+                    <text id="GET-/orders" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal">
+                        <tspan x="42" y="43" fill="#0091FF">GET</tspan>
+                        <tspan x="64.3417969" y="43" fill="#5D4040"> /orders</tspan>
+                    </text>
+                    <path id="Request" d="M305.368686,18.8881632 L306.240261,19.3784245 L318.240261,26.1284245 L319.789729,27 L318.240261,27.8715755 L306.240261,34.6215755 L305.368686,35.1118368 L304.388163,33.3686857 L305.259739,32.8784245 L313.931,28 L-1,28 L-1,26 L313.934,26 L305.259739,21.1215755 L304.388163,20.6313143 L305.368686,18.8881632 Z" fill="#720F45" fill-rule="nonzero"></path>
+                </g>
+                <rect id="Rectangle" fill="#A21964" x="0" y="0" width="20" height="106" rx="4"></rect>
+                <text transform="translate(10.000000, 53.500000) rotate(-90.000000) translate(-10.000000, -53.500000) " font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="-25.8569336" y="57">Order Controller</tspan>
+                </text>
+            </g>
+            <g id="Special-Offers-Controller" transform="translate(90.000000, 724.000000)">
+                <g id="Get-special-offers" transform="translate(21.000000, 12.000000)">
+                    <text font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#720F45">
+                        <tspan x="41" y="16">Get special offers</tspan>
+                    </text>
+                    <text id="GET-/special-offers" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal">
+                        <tspan x="41" y="43" fill="#0091FF">GET</tspan>
+                        <tspan x="63.3417969" y="43" fill="#5D4040"> /special-offers</tspan>
+                    </text>
+                    <path id="Request" d="M304.368686,18.8881632 L305.240261,19.3784245 L317.240261,26.1284245 L318.789729,27 L317.240261,27.8715755 L305.240261,34.6215755 L304.368686,35.1118368 L303.388163,33.3686857 L304.259739,32.8784245 L312.931,28 L-1,28 L-1,26 L312.934,26 L304.259739,21.1215755 L303.388163,20.6313143 L304.368686,18.8881632 Z" fill="#720F45" fill-rule="nonzero"></path>
+                </g>
+                <rect id="Rectangle" fill="#A21964" x="0" y="0" width="20" height="72" rx="4"></rect>
+                <text id="Special-Offers-Contr" transform="translate(9.500000, 35.000000) rotate(-90.000000) translate(-9.500000, -35.000000) " font-family="Roboto-Bold, Roboto" font-size="8" font-weight="bold" line-spacing="8" fill="#FFFFFF">
+                    <tspan x="-16" y="35">Special Offers </tspan>
+                    <tspan x="-8.34570312" y="43">Controller</tspan>
+                </text>
+            </g>
+            <g id="Places-Controller" transform="translate(90.000000, 826.000000)">
+                <g id="Get-places" transform="translate(11.000000, 0.000000)">
+                    <text font-family="Lato-Regular, Lato" font-size="16" font-weight="normal" fill="#720F45">
+                        <tspan x="51" y="16">Get places</tspan>
+                    </text>
+                    <text id="GET-/places" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal">
+                        <tspan x="51" y="43" fill="#0091FF">GET</tspan>
+                        <tspan x="73.3417969" y="43" fill="#5D4040"> /places</tspan>
+                    </text>
+                    <path id="Request" d="M314.368686,18.8881632 L315.240261,19.3784245 L327.240261,26.1284245 L328.789729,27 L327.240261,27.8715755 L315.240261,34.6215755 L314.368686,35.1118368 L313.388163,33.3686857 L314.259739,32.8784245 L322.931,28 L-1,28 L-1,26 L322.934,26 L314.259739,21.1215755 L313.388163,20.6313143 L314.368686,18.8881632 Z" fill="#720F45" fill-rule="nonzero"></path>
+                </g>
+                <rect id="Rectangle" fill="#A21964" x="0" y="3" width="20" height="51" rx="4"></rect>
+                <text transform="translate(9.500000, 29.000000) rotate(-90.000000) translate(-9.500000, -29.000000) " font-family="Roboto-Bold, Roboto" font-size="8" font-weight="bold" line-spacing="8" fill="#FFFFFF">
+                    <tspan x="-4.29101562" y="29">Places </tspan>
+                    <tspan x="-10" y="37">Controller</tspan>
+                </text>
+            </g>
+            <text font-family="Lato-Bold, Lato" font-size="22" font-weight="bold" fill="#5D4040">
+                <tspan x="213.1825" y="22">Initial Load</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
