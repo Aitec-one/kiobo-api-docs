@@ -20,7 +20,7 @@ Next, the user indicates the delivery address (its default delivery address), or
 
 Depending on the client’s settings, there may be payment to the courier or payment on the spot.
 
-<embed src="images/User%20Flow%20Diagram.pdf" width="1024px" height="1594px" />
+<embed src="images/User%20Flow%20Diagram.pdf" width="1024px" height="1600px" />
 
 
 
@@ -35,8 +35,7 @@ information about the user and his orders, etc.
 The application can save the downloaded information, 
 as well as download only the changed information using the versioning mechanism / etag.
 
-
-![User Flow!](Kiobo.%20Mobile%20App%20Interaction.%20Init.pdf "Sequence diagram")
+<embed src="images/Kiobo.%20Mobile%20App%20Interaction.%20Init.pdf" width="700px" height="1000px" />
 
 # Order
 
@@ -47,4 +46,4 @@ Each order change: adding a product to the cart, deleting a product, changing it
 
 During checkout (in the cart screen), the user chooses the type of delivery: delivery or pickup.
 
-![User Flow!](Kiobo.%20Mobile%20App%20Interaction.%20Order.pdf "Sequence diagram")
+<embed src="images/Kiobo.%20Mobile%20App%20Interaction.%20Order.pdf" width="700px" height="1000px" />
