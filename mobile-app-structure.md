@@ -23,8 +23,7 @@ Depending on the client’s settings, there may be payment to the courier or pay
 <embed src="images/User%20Flow%20Diagram.pdf" width="1024px" height="1600px" />
 
 
-
-# Initial Load
+# Initial load
 
 Upon authorization, the application receives an access token, which it stores in a keychain for further calls to the API.
 When accessing the API, the access token is indicated in the request header as "Bearer: accessToken".
@@ -34,6 +33,12 @@ information about the user and his orders, etc.
 
 The application can save the downloaded information, 
 as well as download only the changed information using the versioning mechanism / etag.
+
+# Data structure
+
+<embed src="images/Kiobo%20Data%20Stucture.pdf" width="700px" height="1000px" />
+
+# Load sequence. Data by controllers
 
 <embed src="images/Kiobo.%20Mobile%20App%20Interaction.%20Init.pdf" width="700px" height="1000px" />
 
