@@ -36,7 +36,7 @@ as well as download only the changed information using the versioning mechanism 
 
 # Data structure
 
-<embed src="images/Kiobo%20Data%20Stucture.pdf" width="700px" height="1000px" />
+<embed src="images/Kiobo%20Data%20Stucture.pdf" width="700px" height="600px" />
 
 # Load sequence. Data by controllers
 
